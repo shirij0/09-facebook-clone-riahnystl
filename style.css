@@ -1,0 +1,270 @@
+.btn-primary {
+    background-color: #4065B4;
+}
+
+body {
+    background-color: #E7E9ED;
+}
+
+.navbar {
+  background-color: #3b5998;
+}
+.navbar .navbar-brand {
+  position: relative;
+  top: -3px;
+}
+.navbar .navbar-brand img {
+  height: 25px;
+}
+.navbar-form {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  position: relative;
+  left: -25px;
+}
+.navbar-form input {
+  height: 25px;
+  width: 300px !important;
+}
+
+.navbar-form button {
+  height: 25px;
+  position: relative;
+  left: -10px;
+  background-color: rgb(244	245	248);
+  width: 40px;
+}
+
+.navbar .navbar-nav li a {
+  color: #fff;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: #fff;
+  background-color: #334E8A;
+}
+
+.navbar .navbar-nav li a span {
+  color: #16223D;
+  font-size: 20px;
+}
+
+#main {
+  margin-top: 50px;
+}
+
+#cover {
+  background: #fff;
+  height: 330px;
+  position: relative;
+}
+
+#cover-image {
+  width: 100%;
+}
+
+#cover-overlay {
+    position: absolute;
+    bottom: 48px;
+    width: 100%;
+}
+
+#profile-image {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  width: 200px;
+}
+
+#profile-name {
+  position: relative;
+  top: 110px;
+}
+
+#profile-name h1 {
+  text-shadow: 0 0 3px rgba(0,0,0,.8);
+  color: #fff;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+#profile-buttons {
+  position: relative;
+  top: 130px;
+}
+
+#profile-buttons button {
+  /*margin-right: 10px;*/
+}
+
+#extra-links {
+    height: 48px;
+}
+
+#extra-links > div {
+    height: 100%;
+}
+
+#extra-links .btn-group {
+    height: inherit;
+}
+
+#extra-links a {
+    height: inherit;
+    border: none;
+    border-radius: 0;
+    border-left: 1px solid gray;
+}
+
+#extra-links .last-button {
+    border-right: 1px solid gray;
+}
+
+#main-content {
+    margin-top: 20px;
+}
+#info {
+    background-color: #fff;
+    padding: 10px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.border-radius {
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+}
+
+#new-post {
+    background-color: #fff;
+    padding-bottom: 10px;
+    overflow: auto;
+    width: 100%;
+}
+
+#new-post .btn-group {
+    background-color: #F5F6F9;
+    border-bottom: 1px solid #E4E5E4;
+    width: 100%;
+    padding: 12px;
+}
+
+#new-post .btn-group a {
+    border: none;
+    background: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #E4E5E4;
+    color: #34569B;
+    font-weight: bold;
+}
+
+#new-post .btn-group a.first-button {
+    border: none;
+    color: #4A4E56;
+}
+
+#new-post .btn-group a:hover {
+    background: none;
+}
+
+#post-form {
+    padding: 10px;
+    overflow: auto;
+    width: 100%;
+    border-bottom: 1px solid #DCDEE2;
+}
+
+#status {
+    border: none;
+    resize: none;
+    float: left;
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
+
+#post-button {
+    margin: 10px;
+}
+
+.profile-thumbnail {
+    border: 1px solid #CCCDCC;
+    float: left;
+}
+
+.wall-post {
+    background-color: #fff;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+
+
+.name-link {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.post-date {
+    color: gray;
+    margin-left: 47px;
+    display: block;
+}
+
+.post-text {
+    margin-top: 10px;
+}
+
+.post-reactions {
+    margin-top: 6px;
+}
+
+.post-reactions a {
+    border: none;
+    font-size: 12px;
+    color: gray;
+    margin-right: 20px;
+}
+
+.post-comments {
+    background-color: #F5F6F9;
+    padding: 10px;
+    position: relative;
+    left: -10px;
+    width: 104%;
+    height: 105%;
+}
+
+.post-likes {
+    color: #34569B;
+}
+
+.commenter {
+    font-weight: bold;
+}
+
+.comment-text {
+    margin-left: 5px;
+}
+
+.promos {
+    position: fixed;
+    top: 54.5px;
+}
+
+.promos h3 {
+    font-size: 14px;
+}
+
+.promos a {
+    display: block;
+}
