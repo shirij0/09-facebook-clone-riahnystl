@@ -12,13 +12,24 @@
   color:white;
   z-index:7;
 }
-#img3{left:100px;
-height:50px;
-top:5px;}
+#img3{
+  position: 440px absolute;
+  left:440px;
+  position:
+height:40px;
+width:30px;
+top:17px;}
 #searcharea {
   position:absolute;
   top:17px;
   left:240px;
+  height:40px;
+}
+#searcharea.button {
+  position:fixed;
+  top:17px;
+  left: 740px;
+  text-indent: 400px;
   height:40px;
 }
 #searchbox {
@@ -72,7 +83,19 @@ height:30px;}
 #notification { top:15px;
 left:1105px;
 height:30px;}
-
+#profilearea2 {top:10px;
+left:1150px;
+height:30px;
+font-size:30px;
+font-family:verdana;}
+#setting{
+  top:15px;
+  height:30px;
+  left:1170px;
+}
+#logout {top:15px;
+height:30px;
+left:1215px;}
 
 /*--
   #wrap {
