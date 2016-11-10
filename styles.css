@@ -16,11 +16,13 @@
 height:50px;
 top:5px;}
 #searcharea {
+  position:absolute;
   top:17px;
   left:240px;
   height:40px;
 }
 #searchbox {
+  position: fixed;
   width: 500px;
   height:26px;
   background:white;
@@ -29,17 +31,8 @@ top:5px;}
   outline:none;
   border-radius: 10px/10px;
   background-position:465px;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
-#SearchInner{
-margin: 0;
-padding: 1px 0 2px;
-position:absolute;
-left:20px;
-width:400px;
-list-style-type:none;
-float:left;
-margin-right:10px}
 
 .SearchInput {
   width: 245px;
@@ -50,29 +43,35 @@ margin-right:10px}
   border: 0;
   border-right: 1px solid #e5e5e5;
 }
-/*--
-#facebook-Bar {
-    background:#45619D;
-    border-bottom: 1px solid #0053A6;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.52);
-    min-width: 1000px;
-    width: 100%;
-    z-index: 1000;}--*/
-
-/*-------LOGO-----------*/
-#img3 {
-    float: left;
-    height: 70px;
-    position: relative;
-    width: 160px;}
-#img3 a {
- position: absolute;
- top: 20px;
- font-size:23px; font-weight:bold; color:#FFF;
- text-decoration:none;
- font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
+#profilearea{top:15px;
+left:795px;
+height:40px;}
+#profilearea1 {top:20px;
+left:830px;
+height:20px;
+font-size:20px;
+font-family:verdana;}
+a{color:white;
+text-decoration:none;}
+#profilearea3 {top:10px;
+left:900px;
+height:30px;
+font-size:30px;
+font-family:verdana;}
+#profilearea4 {top:20px;
+left:920px;
+height:20px;
+font-size:20px;
+font-family:verdana;}
+#findf{top:15px;
+left:1015px;
+height:30px;}
+#message {top:15px;
+left:1060px;
+height:30px;}
+#notification { top:15px;
+left:1105px;
+height:30px;}
 
 
 /*--
