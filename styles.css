@@ -72,6 +72,13 @@ left:830px;
 height:20px;
 font-size:20px;
 font-family:verdana;}
+a{color:white;
+text-decoration:none;}
+#profilearea3{top:10px;
+left:900px;
+height:30px;
+font-size:30px;
+font-family:verdana;}
 #main_container {
   height:640px;
   position: relative;
