@@ -55,6 +55,23 @@ top: 5px;}
 #searcharea{top:17px;
 left:240px;
 height:40px;}
+#searchbox{width:500px;
+height:26px;
+background:white;
+padding:5px;
+outline:none;
+border-radius: 10px/10px;
+background-image:url(sr.png)
+background-position:465px;
+background-repeat:no-repeat;}
+#profilearea{top:15px;
+left:795px;
+height: 40px;}
+#profilearea1{top:20px;
+left:830px;
+height:20px;
+font-size:20px;
+font-family:verdana;}
 #main_container {
   height:640px;
   position: relative;
