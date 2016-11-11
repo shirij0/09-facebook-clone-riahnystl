@@ -1,66 +1,96 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title> Facebook Homepage </title>
-  <link type= "text/css" rel="stylesheet" href="style.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title> Facebook Homepage </title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+ <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <div classs="header1">
-    <nav class="navbar navbar-default navbar-fixed top"></nav>
-    <div id="img3" class="header1"> <img src="https://s-media-cache-ak0.pinimg.com/736x/3f/40/7d/3f407dc965335257705ea112bb3a32ce.jpg" width= "30px" height= "40px"/></div>
-    <div id="searcharea" class="header1">
-      <input placeholder="Search Facebook" type="text" id="searchbox"/>
-      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-    </button>
-  </div>
-  </div>
-</div>
-    <div id="profilearea" class="header1">
-      <a href="test.html"><img src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg"width= "30px" height= "20px"></a>
-    </div>
-    <div id="profilearea1" class="header1"><a href ="test.html"> Ria </a></div>
-    <div id="profilearea3" class="header1">|</div>
-    <div id="profilearea4" class="header1"> Home </div>
-    <div id="findf" class="header1">
-      <a href="#"><span class="glyphicon glyphicon-user"></span></a>
-    <div id="message" class="header1"><a href="#"><span class="glyphicon glyphicon-comment"></span></a>
-    </div>
-<div id="notification"><a href="#"><span class="glyphicon glyphicon-globe"></span></a>
-</div>
-</div>
-</div>
-</nav>
-</div>
-
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img alt="Braind" src="https://s-media-cache-ak0.pinimg.com/736x/3f/40/7d/3f407dc965335257705ea112bb3a32ce.jpg" width= "30px" height= "40px">
+          </a>
+        </div>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search Facebook">
+          </div>
+          <button type="submit" class="btn btn-default btn-xs">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          </button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Ria</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-comment"></span></a></li>
+          <li><a href="#"><span class="glyhphicon glyhphicon-globe"></span></a></li>
+        </ul>
+      </div>
 <div class="container" id="main">
-<div class="row">
-<div class="col-md-9">
-<div id="cover">
-<img src="https://cloud.githubusercontent.com/assets/21322120/20196266/8932be32-a75f-11e6-9fe2-37ee096b908f.jpg" height="300px" width="900px" alt=" "id="cover-image"></div>
+  <div class="row">
+    <div class="col-md-9">
+      <div id="cover">
+        <img src="https://cloud.githubusercontent.com/assets/21322120/20196266/8932be32-a75f-11e6-9fe2-37ee096b908f.jpg" height="300px" width="900px" alt=" "id="cover-image"></div>
+        <!--profile photo-->
+        <div class="row" id="cover-overlay">
+          <div class="col-md-3" id="profile-image">
+            <img src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg" height="200px" width="200px" alt="Profile Photo" class="img-thumbnail">
+          </div>
+          <div class="col-md-5" id="profile-name">
+            <h1> Ria Han </h1>
+          </div>
+          <div class="col-md-4" id="profile-buttons">
+            <button type="button" class="btn btn-default btn-sm">Update Info</button>
+            <div class="btn-group" role="group">
+            <button type="button" class="btn btn-sm btn-default btn-sm">View Activity Log</button>
+            <button type="button" class="btn btn-sm btn default btn-sm"><span class="glyphicon glyphicon-option-horizontal"></span></button>
+            </div>
+        </div>
+      </div>
+      <!--Sub-nav -->
+      <div class="row" id="extra-links">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="btn-group btn-group-justified" role="group" aria-hidden="true"></div>
+          <a type="button" class="btn btn-default">Timeline </a>
+          <a type="button" class="btn btn-default">About </a>
+          <a type="button" class="btn btn-default">Friends</a>
+          <a type="button" class="btn btn-default">Photos</a>
+          <a type="button" class="btn btn-default last-button">More</a>
+          </div>
+        </div>
+      </div>
+  </div> <!--closing #cover -->
+  <div class="row" id="main-content">
+    <div class="col-md-4">
+      <div id="intro" class="border-radius">
+        <h2><span class="glyphicon glyphicon-globe"></span>Intro</h2>
+  </div>
+    </div>
+    <div class="col-md-8">
+      <div id="new-post" class="border-radius">
+        <div class="btn-group" role="group" aria-label="...">
+          <a type="button" class="btn btn-default btn-xs">Status</a>
+          <a type="button" class="btn btn-default btn-xs">Photo/Video</a>
+          <a type="button" class="btn btn-default btn-xs">Life Event</a>
+        </div>
+        <img src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg" height="40px"alt="profile thumbnail" class="profile image thumbnail"/>
+        <form>
+          <div class="form-group">
+            <textarea id="status"placeholder="What's On Your Mind?"></textarea>
+          </form>
+      </div>
+    </div>
+  </div>
+</div><!--closing 9-column main area -->
+<div class="col-md-3">.col-md-3 </div>
 </div>
 </div>
-
-<div class="row">
-<div class="col-md-3" id="profile-image">
-<img src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg" height="200px" width="200px" alt="Profile Photo" class="img-thumbnail">
-</div>
-<div class="col-md-5" id="profile-name">
-<h1> Ria Han </h1>
-</div>
-<div class="col-md-4" id="profile-buttons">
-<button type="button" class="btn btn-default btn-sm">Update Info</button>
-<button type="button" class="btn btn-default btn-sm">View Activity Log</button>
-</div>
-</div>
-</div>
-<!-- Sub-nav -->
-<div class="row">
-<div class="col-md-6 col-md-offset-3"> Links Go Here
-</div>
-</div>
-
 </body>
 </html>
