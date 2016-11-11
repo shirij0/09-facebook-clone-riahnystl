@@ -3,11 +3,13 @@
 }
 body {
   background-color: #E7E9ED;
+  padding-top:40px;
 }
-.navbar {
+.navbar-navbar {
   position:fixed;
+  repeat: repeat-x;
   height:40px;
-  background-color: #3b5998;
+  background-color: #000080;;
 }
 .navbar .navbar-brand {
   position: relative;
