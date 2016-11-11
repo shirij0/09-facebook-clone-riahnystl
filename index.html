@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
+
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -33,7 +34,9 @@
           <li><a href="#"><span class="glyphicon glyphicon-globe"></span></a></li>
         </ul>
       </div>
-<div class="container" id="main">
+    </div>
+  </nav>
+<div class="container-fixed" id="main">
   <div class="row">
     <div class="col-md-9">
       <div id="cover">
@@ -43,36 +46,47 @@
           <div class="col-md-3" id="profile-image">
             <img src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg" height="200px" width="200px" alt="Profile Photo" class="img-thumbnail">
           </div>
+
           <div class="col-md-5" id="profile-name">
             <h1> Ria Han </h1>
           </div>
+
+
           <div class="col-md-4" id="profile-buttons">
             <button type="button" class="btn btn-default btn-sm">Update Info</button>
-            <div class="btn-group" role="group">
             <button type="button" class="btn btn-sm btn-default btn-sm">View Activity Log</button>
             <button type="button" class="btn btn-sm btn default btn-sm"><span class="glyphicon glyphicon-option-horizontal"></span></button>
             </div>
         </div>
       </div>
-      <!--Sub-nav -->
-      <div class="row" id="extra-links">
-        <div class="col-md-6 col-md-offset-3">
-          <div class="btn-group btn-group-justified" role="group" aria-hidden="true"></div>
-          <a type="button" class="btn btn-default">Timeline </a>
-          <a type="button" class="btn btn-default">About </a>
-          <a type="button" class="btn btn-default">Friends</a>
-          <a type="button" class="btn btn-default">Photos</a>
-          <a type="button" class="btn btn-default last-button">More</a>
-          </div>
-        </div>
-      </div>
+    </div>  <!--Sub-nav -->
+    <!--Sub-nav -->
+         <div class="row" id="extra-links">
+           <div class="col-md-6 col-md-offset-3">
+             <div class="btn-group btn-group-justified" role="group" aria-hidden="true"></div>
+             <a type="button" class="btn btn-default">Timeline </a>
+             <a type="button" class="btn btn-default">About </a>
+             <a type="button" class="btn btn-default">Friends</a>
+             <a type="button" class="btn btn-default">Photos</a>
+             <a type="button" class="btn btn-default last-button">More</a>
+             </div>
+           </div>
+         </div>
   </div> <!--closing #cover -->
   <div class="row" id="main-content">
-    <div class="col-md-4">
+      <div class="col-md-4">
       <div id="intro" class="border-radius">
         <h2><span class="glyphicon glyphicon-globe"></span>Intro</h2>
+      <p>
+          <h3>Hello. My Name is Ria Han. I love cats. </h3></p>
+          <ul id="info" class="border-radius">
+      <li role="presentation"><a href="#"><span class="glyphicon glyphicon-pencil"></span> Edit Profile</a>
+      </li></br>
+      <li role="presentation"><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Former PR Internship at <a href="https://www.facebook.com/FleishmanHillard/?pnref=lhc"> FleishmanHillard </a></a></li>
+    </ul>
   </div>
-    </div>
+</div>
+
     <div class="col-md-8">
       <div id="new-post" class="border-radius">
         <div class="btn-group" role="group" aria-label="...">
@@ -89,11 +103,146 @@
           </form>
       </div>
       <a type="button" class="btn btn-primary btn-sm pull-right" id="post-button" href="#"> Post </a>
+      </div>
+
+      </div>
     </div>
+  </div><!--closing 9-column main area -->
+  <div class="col-md-3">.col-md-3 </div>
+
+
   </div>
-</div><!--closing 9-column main area -->
-<div class="col-md-3">.col-md-3 </div>
 </div>
+<div id="ad" class="sidebar">
+<blockquote class="twitter-tweet" data-lang="ko"><p lang="en" dir="ltr">Oktoberfest NYC 2016 guide | <a href="https://t.co/i8X8iq4pjF">https://t.co/i8X8iq4pjF</a> <a href="https://t.co/Ui5kHTuvK0">pic.twitter.com/Ui5kHTuvK0</a></p>&mdash; New York City (@NewYorkkcityy) <a href="https://twitter.com/NewYorkkcityy/status/780406074679631873">2016년 9월 26일</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8" width=500px ></script>
+<figcaption> check our social media platform <a href="https://photosketchbookriahan.wordpress.com/2014/09/15/introducing-artists-sketchbook-who-i-am/">here</a> to see more updates.
+</figure>
 </div>
+
+		<div id="timeline-side">
+		</div>
+		<div id="timeline">
+			<div class="block2x3 block">
+				<div class="imgcontainer">
+					<img src="http://www.erhanbasa.com/files/facebook/img/dummy-3.jpg" />
+				</div>
+				<div class="commentcontainer">
+					<div class="peoples">
+						<a href="#"><strong class="peoplename">John Smith</strong></a> and <a href="#">42 other people</a>
+						<p>Have commented on your <a href="#">wall post</a></p>
+					</div>
+					<div class="feedbacks">
+						<span class="date">
+							24 Minutes Ago
+						</span>
+						<ul>
+							<li class="like"><a href="#">Like (15)</a></li>
+							<li class="comment"><a href="#">Comment (42)</a></li>
+							<li><a href="#">Share</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="block1x2 block">
+				<div class="imgcontainer">
+					<img src="http://www.erhanbasa.com/files/facebook/img/dummy-4.jpg" />
+				</div>
+				<div class="commentcontainer">
+					<div class="peoples">
+						<a href="#"><strong class="peoplename">John Smith</strong></a>
+						<p>Have commented on your <a href="#">wall post</a></p>
+						<p>November 24</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="block1x2 block">
+				<div class="commentcontainer">
+					<div class="peoples">
+						<a href="#"><strong class="peoplename">Amelia Ryant</strong></a>
+						<p>Posted on your <a href="#">wall post</a></p>
+						<p><a>22 min ago</a></p>
+					</div>
+				</div>
+				<div class="imgcontainer">
+					<img src="http://www.erhanbasa.com/files/facebook/img/dummy-5.jpg" />
+				</div>
+			</div>
+			<div class="block3x2 block">
+				<div class="imgcontainer">
+					<img src="http://www.erhanbasa.com/files/facebook/img/dummy-2.jpg" />
+				</div>
+				<div class="commentcontainer">
+					<div class="peoples">
+						<a href="#"><strong class="peoplename">John Smith</strong></a> and <a href="#">42 other people</a>
+						<p>Have commented on your <a href="#">wall post</a></p>
+					</div>
+					<div class="feedbacks">
+						<span class="date">
+							24 Minutes Ago
+						</span>
+						<ul>
+							<li class="like"><a href="#">Like (15)</a></li>
+							<li class="comment"><a href="#">Comment (42)</a></li>
+							<li><a href="#">Share</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="block1x1 block">
+				<div class="imgcontainer">
+					<img src="http://www.erhanbasa.com/files/facebook/img/dummy-1.jpg" />
+				</div>
+				<div class="commentcontainer">
+					<div class="peoples">
+						<a href="#"><strong class="peoplename">John Smith</strong></a> and <a href="#">42 other people</a>
+						<p>Have commented on your <a href="#">wall post</a></p>
+					</div>
+					<div class="feedbacks">
+						<span class="date">
+							24 Minutes Ago
+						</span>
+						<ul>
+							<li class="like"><a href="#">Like (15)</a></li>
+							<li class="comment"><a href="#">Comment (42)</a></li>
+							<li><a href="#">Share</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="block1x1 block">
+				<div class="imgcontainer">
+					<img src="http://www.erhanbasa.com/files/facebook/img/dummy-4.jpg" />
+				</div>
+				<div class="commentcontainer">
+					<div class="peoples">
+						<a href="#"><strong class="peoplename">John Smith</strong></a> and <a href="#">42 other people</a>
+						<p>Have commented on your <a href="#">wall post</a></p>
+					</div>
+					<div class="feedbacks">
+						<span class="date">
+							24 Minutes Ago
+						</span>
+						<ul>
+							<li class="like"><a href="#">Like (15)</a></li>
+							<li class="comment"><a href="#">Comment (42)</a></li>
+							<li><a href="#">Share</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="block2x1 block">
+				<div class="commentcontainer">
+					<div class="peoples">
+						<a href="#"><strong class="peoplename">Amelia Ryant</strong></a>
+						<p>Tagged you in a <a href="#">photo</a></p>
+						<p><a>22 min ago</a></p>
+					</div>
+				</div>
+				<div class="imgcontainer">
+					<img src="http://www.erhanbasa.com/files/facebook/img/dummy-6.jpg" />
+				</div>
+			</div>
+    </div>
 </body>
 </html>
