@@ -1,3 +1,6 @@
+.btn-primary {
+  background-color: #4065B4;
+}
 body {
   background-color: #E7E9ED;
 }
@@ -108,6 +111,8 @@ h2 {
 #new-post {
   background-color: #fff;
   padding-bottom: 10px;
+  overflow: auto;
+  width: 100%;
 }
 #new-post .btn-group {
   background-color: #F5F6F9;
@@ -131,12 +136,23 @@ font-weight: bold;
 #new-post .btn-group a:hover {
   background: none;
 }
+#post-form {
+  padding:10px;
+  overflow:auto;
+  width:100%;
+  border-bottom: 1px solid #DCDEE2;
+}
 #status {
   border: none;
   resize: none;
   float: left;
+  left:10px;
+  top: -10px;
+}
+#post-button {
+  margin: 10px;
 }
 .profile-thumnail {
-  border: 1px solid gray;
+  border: 1px solid #CCCDCC;
   float: left;
 }
