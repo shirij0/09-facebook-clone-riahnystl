@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title> Facebook Homepage </title>
-<link rel="stylesheet" href="styles.css" type="text/css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title> my Bootstrap Homepage </title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img alt="Brand" src="https://s-media-cache-ak0.pinimg.com/736x/3f/40/7d/3f407dc965335257705ea112bb3a32ce.jpg" width= "30px" height= "40px">
-          </a>
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="https://s-media-cache-ak0.pinimg.com/736x/3f/40/7d/3f407dc965335257705ea112bb3a32ce.jpg" width= "25px" height= "25px">
+            </a>
         </div>
         <form class="navbar-form navbar-left" role="search">
           <div class="form-group">
@@ -26,106 +26,123 @@
             <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
           </button>
         </form>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Ria</a></li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-comment"></span></a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-globe"></span></a></li>
-        </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><img class="thumbnail" src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg" height="24px" alt="Profile thumbnail"></a></li>
+            <li><a href="#">Ria </a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-comment"></span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-globe"></span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-lock"></span> </a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-align-left"></span> </a></li>
+              <li><a href="#"> <span class="glyphicon glyphicon-triangle-bottom"></span></a></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-<div class="container-fixed" id="main">
-  <div class="row">
-    <div class="col-md-9">
-      <div id="cover">
-        <img src="https://cloud.githubusercontent.com/assets/21322120/20196266/8932be32-a75f-11e6-9fe2-37ee096b908f.jpg" height="300px" width="900px" alt=" "id="cover-image"></div>
-        <!--profile photo-->
-        <div class="row" id="cover-overlay">
-          <div class="col-md-3" id="profile-image">
-            <img src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg" height="200px" width="200px" alt="Profile Photo" class="img-thumbnail">
-          </div>
-
-          <div class="col-md-5" id="profile-name">
-            <h1> Ria Han </h1>
-          </div>
-
-
-          <div class="col-md-4" id="profile-buttons">
-            <button type="button" class="btn btn-default btn-sm">Update Info</button>
-            <button type="button" class="btn btn-sm btn-default btn-sm">View Activity Log</button>
-            <button type="button" class="btn btn-sm btn default btn-sm"><span class="glyphicon glyphicon-option-horizontal"></span></button>
+    </nav>
+    <!-- Cover photo, profile photo, links-->
+      <div class="container-fixed" id="main">
+        <div class="row">
+          <div class="col-md-9">
+            <div id="cover">
+                <img src="https://cloud.githubusercontent.com/assets/21322120/20196266/8932be32-a75f-11e6-9fe2-37ee096b908f.jpg" height="300px" width="900px" alt=" "id="cover-image">
             </div>
+              <!--profile photo-->
+              <div class="row" id="cover-overlay">
+                <div class="col-md-3" id="profile-image">
+                  <img src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg" height="200px" width="200px" alt="Profile Photo" class="img-thumbnail">
+                </div>
+                <div class="col-md-5" id="profile-name">
+                    <h1> Ria Han </h1>
+                </div>
+                <div class="col-md-4" id="profile-buttons">
+                    <button type="button" class="btn btn-default btn-sm">Update Info</button>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-sm btn-default btn-sm">View Activity Log</button>
+                        <button type="button" class="btn btn-sm btn default btn-sm"><span class="glyphicon glyphicon-option-horizontal"></span></button>
+                    </div>
+                  </div>
+                </div>
+                <!--Sub-nav -->
+                <div class="row" id="extra-links">
+                  <div class="col-md-6 col-md-offset-3">
+                    <div class="btn-group btn-group-justified" role="group" aria-hidden="..">
+                      <a type="button" class="btn btn-default">Timeline </a>
+                      <a type="button" class="btn btn-default">About </a>
+                      <a type="button" class="btn btn-default">Friends</a>
+                      <a type="button" class="btn btn-default">Photos</a>
+                      <a type="button" class="btn btn-default last-button">More</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div> <!--closing #cover-->
+              <div class="row" id="main-content">
+                <div class="col-md-12">
+                  <div id="info" class="border-radius">
+                      <p><h3>Follow Ria to get her public posts in your News Feed </h3></p>
+                      <p<
+                  </div>
+                </div>
+
+              <div class="col-md-8">
+              <div id="new-post" class="border-radius">
+                <div class="btn-group" role="group" aria-label="...">
+                  <a> <span class="glyphicon glyphicon-pencil"></span></a>
+                  <a type="button" class="btn btn-default btn-xs">Status</a>
+                   <a> |</a>
+                   <a><span class="glyphicon glyphicon-camera"></span></a>
+                   <a type="button" class="btn btn-default btn-xs">Photo/Video</a>
+                    <a> |</a>
+                    <a><span class="glyphicon glyphicon-flag"></span></a>
+                   <a type="button" class="btn btn-default btn-xs">Life Event</a>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-8">
+                 <div id="post-form">
+                    <img src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg" height="40px"alt="profile thumbnail" class="profile-thumbnail border-radius"/>
+                 <form>
+                    <div class="form-group">
+                      <textarea id="status" cols="40" rows="10" class="form-control-message" style="height:62px; overflow: hidden;" placeholder="What's On Your Mind?"></textarea>
+                 <div class="row">
+                 <select name="privacy" class="form-control privacy-dropdown pull-left input-sm">
+                 <option value="1" selected="selected">Public</option>
+                 <option value="2">Only my friends</option>
+                 <option value="3">Only me</option>
+                 </select>
+                         <a type="button" class="btn btn-primary btn-sm pull-right" id="post-button" href="#"> Post </a>
+                  </div>
+                  </div>
+                 </form>
+              </div>
+            </div>
+            <a type="button" class="btn btn-primary btn-xs pull-right" href="#">Post</a>
         </div>
       </div>
-    </div>  <!--Sub-nav -->
-    <!--Sub-nav -->
-         <div class="row" id="extra-links">
-           <div class="col-md-6 col-md-offset-3">
-             <div class="btn-group btn-group-justified" role="group" aria-hidden="true"></div>
-             <a type="button" class="btn btn-default">Timeline </a>
-             <a type="button" class="btn btn-default">About </a>
-             <a type="button" class="btn btn-default">Friends</a>
-             <a type="button" class="btn btn-default">Photos</a>
-             <a type="button" class="btn btn-default last-button">More</a>
-             </div>
-           </div>
-         </div>
-  </div> <!--closing #cover -->
-  <div class="row" id="main-content">
+    </div> <!--closing 9-column main area-->
       <div class="col-md-4">
-      <div id="intro" class="border-radius">
-        <h2><span class="glyphicon glyphicon-globe"></span>Intro</h2>
-      <p>
-          <h3>Hello. My Name is Ria Han. I love cats. </h3></p>
-          <ul id="info" class="border-radius">
-      <li role="presentation"><a href="#"><span class="glyphicon glyphicon-pencil"></span> Edit Profile</a>
-      </li></br>
-      <li role="presentation"><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Former PR Internship at <a href="https://www.facebook.com/FleishmanHillard/?pnref=lhc"> FleishmanHillard </a></a></li>
-    </ul>
-  </div>
-</div>
-
-    <div class="col-md-8">
-      <div id="new-post" class="border-radius">
-        <div class="btn-group" role="group" aria-label="...">
-          <a type="button" class="btn btn-default btn-xs">Status</a>
-          <a type="button" class="btn btn-default btn-xs">Photo/Video</a>
-          <a type="button" class="btn btn-default btn-xs">Life Event</a>
-        </div>
-        <div id="post-form">
-        <img src="https://cloud.githubusercontent.com/assets/21322120/20161693/d581d3d6-a6b5-11e6-86ea-31adaef3f1c8.jpg" height="40px"alt="profile thumbnail" class="profile-thumbnail border-radius"/>
-        <form>
-          <div class="form-group">
-            <textarea id="status"placeholder="What's On Your Mind?"></textarea>
-          </div>
-          </form>
-      </div>
-      <a type="button" class="btn btn-primary btn-sm pull-right" id="post-button" href="#"> Post </a>
-      </div>
-
+      <div id="info" class="border-radius">
+          <h2><span class="glyphicon glyphicon-globe"></span>Intro</h2>
+          <p><h3>Hello. My Name is Ria Han. I love cats. </h3></p>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-pencil"></span> Edit Profile</a>
+            </li></br>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Former PR Internship at <a href="https://www.facebook.com/FleishmanHillard/?pnref=lhc"> FleishmanHillard </a></a></li>
+          </ul>
       </div>
     </div>
-  </div><!--closing 9-column main area -->
-  <div class="col-md-3">.col-md-3 </div>
 
 
+  <div id="ad" class="sidebar">
+    <blockquote class="twitter-tweet" data-lang="ko"><p lang="en" dir="ltr">Oktoberfest NYC 2016 guide | <a href="https://t.co/i8X8iq4pjF">https://t.co/i8X8iq4pjF</a> <a href="https://t.co/Ui5kHTuvK0">pic.twitter.com/Ui5kHTuvK0</a></p>&mdash; New York City (@NewYorkkcityy) <a href="https://twitter.com/NewYorkkcityy/status/780406074679631873">2016년 9월 26일</a></blockquote>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8" width=500px ></script>
+    <figcaption> check our social media platform <a href="https://photosketchbookriahan.wordpress.com/2014/09/15/introducing-artists-sketchbook-who-i-am/">here</a> to see more updates.
+    </figure>
   </div>
-</div>
-<div id="ad" class="sidebar">
-<blockquote class="twitter-tweet" data-lang="ko"><p lang="en" dir="ltr">Oktoberfest NYC 2016 guide | <a href="https://t.co/i8X8iq4pjF">https://t.co/i8X8iq4pjF</a> <a href="https://t.co/Ui5kHTuvK0">pic.twitter.com/Ui5kHTuvK0</a></p>&mdash; New York City (@NewYorkkcityy) <a href="https://twitter.com/NewYorkkcityy/status/780406074679631873">2016년 9월 26일</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8" width=500px ></script>
-<figcaption> check our social media platform <a href="https://photosketchbookriahan.wordpress.com/2014/09/15/introducing-artists-sketchbook-who-i-am/">here</a> to see more updates.
-</figure>
-</div>
-
-		<div id="timeline-side">
-		</div>
-		<div id="timeline">
-			<div class="block2x3 block">
-				<div class="imgcontainer">
-					<img src="http://www.erhanbasa.com/files/facebook/img/dummy-3.jpg" />
+	<div id="timeline-side"></div>
+	<div id="timeline">
+	   <div class="block2x3 block">
+		     <div class="imgcontainer">
+				       <img src="http://www.erhanbasa.com/files/facebook/img/dummy-3.jpg" />
 				</div>
 				<div class="commentcontainer">
 					<div class="peoples">
@@ -241,8 +258,13 @@
 				</div>
 				<div class="imgcontainer">
 					<img src="http://www.erhanbasa.com/files/facebook/img/dummy-6.jpg" />
-				</div>
+				</div
+        >
 			</div>
     </div>
-</body>
-</html>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  </html>
