@@ -1,100 +1,26 @@
 .btn-primary {
-    background-color:#E7E9ED;
+    background-color:#4065B4;
 }
 html {
   font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+}
 body {
-  background-color: #e9eaed;
+  background-color: #E7E9ED;
   font-family: helvetica, arial, sans-serif;
   margin: 0; }
-  article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  /* 1 */
-  display: block; }
+
 container {
     border:1px solid #103480;
-  }
+    }
 .navbar {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  justify-content: space-between;
   background-color: #3b5998;
   border-bottom: 1px solid #103480;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.8);
   box-sizing: border-box;
   height: 42px;
   width: 100%; }
-  .navbar button {
-    height: 24px;
-    cursor: pointer; }
-}
-
-a {
-  color: inherit; }
-p{
-  font-size: 9px;
-}
-
-button {
-  padding: 0; }
-  html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
-  article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section,
-summary {
-  /* 1 */
-  display: block; }
-
-/**
- * Add the correct display in IE 9-.
- */
-audio,
-canvas,
-progress,
-video {
-  display: inline-block; }
-
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-progress {
-  vertical-align: baseline; }
-
-template,
-[hidden] {
-  display: none; }
 .navbar .navbar-brand {
 position: relative;
 top:-3px;
@@ -113,30 +39,19 @@ height: 25px;
 width: 300px;
 }
 .navbar-form button {
-  height: 24px;
+  height: 25px;
   position: relative;
   left: -10px;
   background-color: rgb (244 245 248);
   width: 40px;
   cursor: pointer; }
 }
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
+.navbar .navbar-nav h4 {
+  text-shadow: 0 0 3px rgba(0,0,0, 0.8);
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
 }
-  button:-moz-focusring,
-  [type="button"]:-moz-focusring,
-  [type="reset"]:-moz-focusring,
-  [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText; }
-
-  [type="search"] {
-      -webkit-appearance: textfield;
-      /* 1 */
-      outline-offset: -2px;
-
   .navbar .navbar-nav li a {
   color: #fff;
   }
@@ -161,30 +76,54 @@ html [type="button"],
   }
   #cover-overlay {
     position: absolute;
-    bottom: 50px;
+    bottom: 48px;
     width: 100%;
   }
   #profile-image {
     position: relative;
-    top: 45px;
-    left: 10px;
+    top: 30px;
+    left: 20px;
     width:200px;
   }
   #profile-name {
     position: relative;
     font-size: 11px;
-    top:130px;
+    top:110px;
     text-decoration: bold;
   }
-  #profile-buttons button{
-  margin-right: 10px;
-  top:150px;
-  float:right;
-  position:relative;
-  text-align:right;
+  #profile-name h1 {
+    text-shadow: 0 0 3px rgba(0,0,0, 0.8);
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
   }
+  #profile-buttons {
+    position: relative;
+    float:right;
+    display: block;
+    top: 85px;
+    background-color:#ECEEF5;
+    text-decoration:none;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+padding: 1px 0px 0px 0px;
+margin-right:0px;
+
+  }
+  #profile-buttons button{
+  /*margin-right: 10px;*/
+
+  }
+
+  .button:hover{
+      border:1px solid #9DACCE;
+      text-decoration:none;
+    }
+
   #extra-links {
     height: 48px;
+    background-color:#fff;
+    width: 100%;
   display:block;}
   #extra-links > div {
     height:100%;
@@ -194,6 +133,7 @@ html [type="button"],
   }
   #extra-links a {
     height:inherit;
+    width: inherit;
     border: none;
     border-radius: 0;
     border-left: 1px solid gray;
@@ -227,25 +167,35 @@ html [type="button"],
   overflow: auto;
   width:100%;
   }
+  #new-post .btn-group {
+    background-color: #F5F6F9;
+    border-bottom: 1px solid #E4E5E4;
+    width: 100%;
+    padding: 12px;
+  }
   #new-post .btn-group a{
     border: none;
-    background:none;
+    background-color: none;
     padding-right: 10px;
     padding-left: 10px;
     border-left: 1px solid #E4E5E4;
+    color:#345698;
+    font-weight: bold;
   }
-  #new-post .btn group a.first-button {
+
+  #new-post .btn-group a.first-button {
     border:none;
+    color: #4A4E56;
   }
   #new-post .btn-group a:hover {
     background: none;
-
   }
+
 
   #post-form {
   padding: 10px;
   overflow: auto;
-  width:100%
+  width:100%;
   border-bottom: 1px solid #DCDEE2;
   }
   #status {
@@ -257,12 +207,15 @@ html [type="button"],
   top: -10px;
 
   }
+  #post-button {
+    margin: 10px;
+  }
+  .show-on-hover:hover > ul.dropdown-menu {
+    display: block;
+}
+
   .profile-thumbnail {
     border: 1px solid #CCCDCC;
+    margin-left: 4px;
     float: left;
-  }
-  #new-post .btn-group {
-    background-color: #F5F6F9;
-    border-bottom: 1px solid #E4E5E4;
-    width: 100%
   }
