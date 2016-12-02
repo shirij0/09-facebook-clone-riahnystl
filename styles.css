@@ -1,250 +1,234 @@
 .btn-primary {
     background-color:#4065B4;
 }
-html {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
 body {
   background-color: #E7E9ED;
   font-family: helvetica, arial, sans-serif;
   margin: 0; }
-
-container {
-    border:1px solid #103480;
-    width: 100px;}
 .navbar {
-  background-color: #3b5998;
-  border-bottom: 1px solid #103480;
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.8);
-  box-sizing: border-box;
-  height: 42px;
-  width: 100%; }
+    background-color: #3b5998;
+    border-bottom: 1px solid #103480;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    height: 42px;
+    width: 100%; }
 .navbar .navbar-brand {
-position: relative;
-top:-3px;
-}
+  position: relative;
+  top:-3px;
+  }
 .navbar .navbar-brand img {
-height: 25px;
-}
-.navbar-form {
-  margin-top: 12px;
-  margin-bottom: 12px;
-  position: relative;
-  left: -25px;
-}
-.navbar-form input {
-height: 25px;
-width: 300px;
-}
-.navbar-form button {
   height: 25px;
-  position: relative;
-  left: -10px;
-  background-color: rgb (244 245 248);
-  width: 40px;
-  cursor: pointer; }
-}
-.navbar .navbar-nav h4 {
-  text-shadow: 0 0 3px rgba(0,0,0, 0.8);
-  color: #fff;
-  font-weight: 500;
-  font-size: 12px;
-}
-  .navbar .navbar-nav li a {
-  color: #fff;
   }
-  .navbar .navbar-nav li a: hover {
-  color:#fff;
-  background-color:#334E8A;
-  }
-  .navbar .navbar-nav li a span {
-  color: #16223D;
-  font-size: 20px;
-  }
-  #main {
-    margin-top: 50px;
-  }
-  #cover {
-    background: #fff;
-    height: 330px;
+.navbar-form {
+    margin-top: 12px;
+    margin-bottom: 12px;
     position: relative;
+    left: -25px;
   }
-  #cover-image {
-  width:100%;
+.navbar-form input {
+  height: 25px;
+  width: 300px;
   }
-  #cover-overlay {
-    position: absolute;
-    bottom: 48px;
-    width: 100%;
-  }
-  #profile-image {
+.navbar-form button {
+    height: 25px;
     position: relative;
-    top: 30px;
-    left: 20px;
-    width:200px;
-  }
-  #profile-name {
-    position: relative;
-    font-size: 11px;
-    top:110px;
-    text-decoration: bold;
-  }
-  #profile-name h1 {
+    left: -10px;
+    background-color: rgb (244 245 248);
+    width: 40px;
+    }
+
+  .navbar .navbar-nav h4 {
     text-shadow: 0 0 3px rgba(0,0,0, 0.8);
     color: #fff;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 12px;
   }
-  #profile-buttons {
-    position: relative;
-    float:right;
-    display: block;
-    top: 85px;
-    background-color:#ECEEF5;
-    text-decoration:none;
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
-padding: 1px 0px 0px 0px;
-margin-right:0px;
-
-  }
-  #profile-buttons button{
-  /*margin-right: 10px;*/
-
-  }
-
-  .button:hover{
-      border:1px solid #9DACCE;
-      text-decoration:none;
+.navbar .navbar-nav li a {
+    color: #fff;
     }
-
-  #extra-links {
-    height: 48px;
-    background-color:#fff;
-    width: 100%;
-  display:block;}
-  #extra-links > div {
-    height:100%;
-  }
-  #extra-links .btn-group {
-    height: inherit;
-  }
-  #extra-links a {
-    height:inherit;
-    width: inherit;
-    border: none;
-    border-radius: 0;
-    border-left: 1px solid gray;
-  }
-  #extra-links .last-button {
-    border-right: 1px solid gray;
-  }
-  #main-content{
-    margin-top:20px;
-  }
-  #info{
-    background-color:#fff;
-    padding: 10px;
-    width: 250px;
-    border: 1px solid #dfe3ee;
-  }
-
-  h2 {
-    font-weight:normal;
-    font-size: 16px;
-    margin-top: 0px;
-  }
-  .border-radius {
-  border: 1px solid;
-  border-color: #e5e6e9 #dfe0c4 #d0d1d5;
-  border-radius: 3px;
-  }
-  #new-post {
-  background-color: #fff;
-  padding-bottom: 10px;
-  overflow: auto;
-  width:100%;
-  }
-  #new-post .btn-group {
-    background-color: #F5F6F9;
-    border-bottom: 1px solid #E4E5E4;
-    width: 100%;
-    padding: 12px;
-  }
-  #new-post .btn-group a{
-    border: none;
-    background-color: none;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-left: 1px solid #E4E5E4;
-    color:#345698;
-    font-weight: bold;
-  }
-
-  #new-post .btn-group a.first-button {
-    border:none;
-    color: #4A4E56;
-  }
-  #new-post .btn-group a:hover {
-    background: none;
-  }
-
-
-  #post-form {
-  padding: 10px;
-  overflow: auto;
-  width:100%;
-  border-bottom: 1px solid #DCDEE2;
-  }
-  #status {
-  border:none;
-  resize:none;
-  float: left;
+.navbar .navbar-nav li a:hover {
+    color:#fff;
+    background-color:#334E8A;
+    }
+.navbar .navbar-nav li a span {
+    color: #16223D;
+    font-size: 20px;
+    }
+#main {
+      margin-top: 50px;
+    }
+#cover {
+  background: #fff;
+  height: 330px;
   position: relative;
-  left: 10px;
-  top: -10px;
+}
+#cover-image {
+width:100%;
+}
+#cover-overlay {
+  position: absolute;
+  bottom: 48px;
+  width: 100%;
+}
+#profile-image {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  width:200px;
+}
+#profile-name {
+  position: relative;
+  color:#ffffff;
+  font-size: 11px;
+  top:110px;
+  text-decoration: bold;
+}
+#profile-buttons {
+  position: relative;
+  top: 130px;
+}
+#extra-links {
+  height: 48px;
+  background-color:#fff;
+  width: 100%;
+display:block;}
 
-  }
-  #post-button {
-    margin: 10px;
-  }
-  .show-on-hover:hover > ul.dropdown-menu {
-    display: block;
+#extra-links > div {
+  height:100%;
+}
+#extra-links .btn-group {
+  height: inherit;
+}
+#extra-links a {
+  height:inherit;
+  border: none;
+  border-radius: 0;
+  border-left: 1px solid gray;
+}
+#extra-links .last-button {
+  border-right: 1px solid gray;
+}
+#main-content{
+  margin-top:20px;
+}
+#info{
+  background-color:#fff;
+  padding: 10px;
+  margin-top: 8px;
+  width: 270px;
+  border: 1px solid #dfe3ee;
+}
+#photos {
+  background-color:#fff;
+padding: 10px;
+margin-top: 8px;
+width: 270px;
+border: 1px solid #dfe3ee;
+display: inline-block;
+}
+#grid {
+  width: 250px;
+  margin-left:3px;
 }
 
-  .profile-thumbnail {
-    border: 1px solid #CCCDCC;
-    margin-left: 4px;
-    float: left;
-  }
-  .post-footer-option li{
-      float:left;
-      margin-right:50px;
-      padding-bottom:15px;
-  }
+.grid-element {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 8px;
+  display: inline-block;
+  width: 75px;
+  height: 83px;
+  float: left;
+}
+#friends {
+  background-color:#fff;
+  padding: 10px;
+  margin-top: 8px;
+  width: 270px;
+  border: 1px solid #dfe3ee;
+}
+h2 {
+  font-weight:normal;
+  font-size: 16px;
+  margin-top: 0px;
+}
+.border-radius {
+border: 1px solid;
+border-color: #e5e6e9 #dfe0c4 #d0d1d5;
+border-radius: 3px;
+}
+#new-post {
+background-color: #fff;
+margin-top: 14px;
+padding-bottom: 10px;
+overflow: auto;
+width:100%;
+}
+#new-post .btn-group {
+  background-color: #F5F6F9;
+  border-bottom: 1px solid #E4E5E4;
+  width: 100%;
+  padding: 12px;
+}
+#new-post .btn-group a{
+  border: none;
+  background-color: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #E4E5E4;
+  color:#345698;
+  font-weight: bold;
+}
 
-  .post-footer-option li a{
-      color:#AFB4BD;
-      font-weight:500;
-      font-size:1.3rem;
-  }
+#new-post .btn-group a.first-button {
+  border:none;
+  color: #4A4E56;
+}
+#new-post .btn-group a:hover {
+  background: none;
+}
 
-  .photo-profile{
-      border:1px solid #DDD;
-  }
+#post-form {
+padding: 10px;
+overflow: auto;
+width:100%;
+border-bottom: 1px solid #DCDEE2;
+}
+#status {
+border:none;
+resize:none;
+float: left;
+position: relative;
+left: 10px;
+top: -10px;
+margin-top:8px;
+}
+#post-button {
+  margin: 10px;
+}
+.show-on-hover:hover > ul.dropdown-menu {
+  display: block;
+}
 
-  .anchor-username h4{
-      font-weight:normal;
-    
-  }
+.profile-thumbnail {
+  border: 1px solid #CCCDCC;
+  margin-left: 4px;
+  float: left;
+}
+.photo-profile{
+    border:1px solid #DDD;
+}
 
-  .anchor-time{
-      color:#ADB2BB;
-      font-size:1.2rem;
-  }
+.anchor-username h4{
+    font-weight:normal;
 
-  .post-footer-comment-wrapper{
-      background-color:#F6F7F8;
-  }
+}
+
+.anchor-time{
+    color:#ADB2BB;
+    font-size:1.2rem;
+}
+
+.post-footer-comment-wrapper{
+    background-color:#F6F7F8;
+}
