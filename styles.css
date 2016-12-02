@@ -146,6 +146,7 @@ display: inline-block;
   margin-top: 8px;
   width: 270px;
   border: 1px solid #dfe3ee;
+  display: inline-block;
 }
 h2 {
   font-weight:normal;
